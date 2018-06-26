@@ -4,15 +4,16 @@
 .tite {
 	background:#FFFFFF;
 	width: 100%;
-	height: 300px;
+	height: 100%;
 	margin-top: 50px;
+	
 		
 	
 }
 
 .border{
 	width: 90%;
-	height: 200px;
+	height:200px;
 	margin:0px auto;
 	border: 2px black solid;
 	transition: all 0.3s;
@@ -23,7 +24,7 @@
 
 .logo{
 	background-image: url("https://i.imgur.com/CW4L5BJ.jpg");
-	width: 100%;
+	width: 100VW;
 	height: 200px;
 	background-size: 200px 200px;
 	background-repeat: no-repeat;
@@ -34,33 +35,83 @@
 }
 
 .left{
-	margin: 35px 50px;
+	float: left;
+	width: 50%;
+	height: 200px;
+
 }
 
+.left div{float: left;}
+
+.lecenter {
+	padding: 30px 180px;
+}
+
+.right{
+	float: left;
+	width: 50%;
+	height: 200px;
+}
+
+.right div{display: inline-block;}
+
+.ricenter{
+	padding: 30px ;
+	padding-left: 200px;
+}
 
 .img01{
 	background-image: url("https://i.imgur.com/zUs8Esi.jpg");
 	background-repeat: no-repeat;
-	display: inline-block;
-	width: 180px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 	background-size: 130px 130px;
 }
 
 .img02{
 	background-image: url("https://i.imgur.com/N13qQAY.jpg");
 	background-repeat: no-repeat;
-	display: inline-block;
-	width: 180px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
 	background-size: 130px 130px;
 }
 
 .img03{
 	background-image: url("https://i.imgur.com/AAnDc3m.jpg");
 	background-repeat: no-repeat;
-	display: inline-block;
-	width: 180px;
-	height: 150px;
+	width: 130px;
+	height: 130px;
+	background-size: 130px 130px;
+}
+
+.img04{
+	background-image: url("https://i.imgur.com/IE1x88f.jpg");
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 130px;
+	background-size: 130px 130px;
+}
+
+.img05{
+	background-image: url("https://i.imgur.com/Z7Mwtd8.jpg");
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 130px;
+	background-size: 130px 130px;
+}
+
+.img06{
+	background-image: url("https://i.imgur.com/zwTgEzN.jpg");
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 130px;
+	background-size: 130px 130px;
+}
+
+.img07{
+	background-image: url("https://i.imgur.com/IE1x88f.jpg");
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 130px;
 	background-size: 130px 130px;
 }
