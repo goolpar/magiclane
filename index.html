@@ -1,37 +1,186 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8"name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-<title>魔法巷拍賣小舖</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-</head>
 
-<body>
-	<header class="tite">
-		<div class="border">
+/* CSS Document */
+
+body{
+	width: 100%;
+	height: 100%
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src:local('Noto Sans TC'), local('NotoSansTC-Thin'), 
+	  url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
 	
-			</div>
-			<div class="logo"></div>
-		<div class="name">
-			
-			<div class="img01" style="display: none;"></div>
-			<div class="img02" style="display: none;"></div>
-			<div class="img03" style="display: none;"></div>
-			<div class="img04" style="display: none;"></div>
-			<div class="img05" style="display: none;"></div>
-			<div class="img06" style="display: none;"></div>
-			<div class="img07" style="display: none;"></div>
-		</div>
-	</header>
-	<p class="en">You Can Choose</p>
-	<h1 class="font">我們的拍賣</h1>
-	<div class="shop">
-		<a href="https://tw.bid.yahoo.com/booth/Y9383906578?bfe=1"><div class="yaho"></div></a>
-		<a href="https://shopee.tw/goolpar"><div class="sohpp"></div></a>
-		<a href="http://class.ruten.com.tw/user/index00.php?s=74159688"><div class="ruten"></div></a>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="logoIn.js"></script>
-</body>
-</html>
+}
+
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+	src:local('Noto Sans TC'), local('NotoSansTC-Regular'),
+ url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }
+
+
+.font{
+	font-family: "Noto Sans TC",NotoSansTC-Regular,sans-serif;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+.en{	
+	font-family: "Noto Sans TC",NotoSansTC-Thin,sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: aquamarine;
+}
+
+.tite {
+	background:#FFFFFF;
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	 
+}
+
+.border{
+	width: 90%;
+	height:200px;
+	margin:0px auto;
+	border: 2px black solid;
+	transition: all 0.3s;
+	
+}
+
+.border:hover{border-radius:25px;}
+
+.logo{
+	background-image: url("https://i.imgur.com/CW4L5BJ.jpg");
+	width: 100VW;
+	height: 200px;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top:-100px;
+	
+}
+
+.name{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	position: relative;
+	top:-50px;
+	
+}
+
+.name div{
+	width: 4%;
+	height: 70px;
+	display: inline-block;
+	
+	
+	
+}
+
+.img01{
+	background-image: url("https://i.imgur.com/zUs8Esi.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.img02{
+	background-image: url("https://i.imgur.com/N13qQAY.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.img03{
+	background-image: url("https://i.imgur.com/AAnDc3m.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.img04{
+	background-image: url("https://i.imgur.com/IE1x88f.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.img05{
+	background-image: url("https://i.imgur.com/Z7Mwtd8.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.img06{
+	background-image: url("https://i.imgur.com/zwTgEzN.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.img07{
+	background-image: url("https://i.imgur.com/qmRxHYC.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.shop{
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	position: relative;
+	top:50px;
+}
+
+.shop div{
+	width: 15%;
+	height: 200px;
+	display: inline-block;
+}
+
+
+
+.yaho{
+	background-image: url("https://i.imgur.com/A2VnS9o.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 5%;
+}
+
+.sohpp{
+	background-image: url("https://i.imgur.com/JteMfPx.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.ruten{
+	background-image: url("https://i.imgur.com/kVjmjhi.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-left: 5%;
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	.name div{
+	width: 10%;
+	height: 70px;
+	display: inline-block;
+		}
+	.shop div{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+
+}
