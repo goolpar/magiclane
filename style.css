@@ -169,7 +169,7 @@ body{
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.name div{
 	width: 10%;
 	height: 70px;
