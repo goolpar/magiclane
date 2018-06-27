@@ -10,16 +10,37 @@ body{
   font-family: 'Noto Sans TC';
   font-style: normal;
   font-weight: 300;
-  src:local('Noto Sans TC'), local('NotoSansTC-Thin'), url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+  src:local('Noto Sans TC'), local('NotoSansTC-Thin'), 
+	  url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
 	
 }
 
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+	src:local('Noto Sans TC'), local('NotoSansTC-Regular'),
+ url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }
 
 
 .font{
-	font-size: 20px;
+	font-family: "Noto Sans TC",NotoSansTC-Regular,sans-serif;
+	font-size: 30px;
 	text-align: center;
+	
+}
+
+.en{	
 	font-family: "Noto Sans TC",NotoSansTC-Thin,sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: aquamarine;
 }
 
 .tite {
