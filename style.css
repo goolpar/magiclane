@@ -167,3 +167,11 @@ body{
 	background-size: contain;
 	margin-left: 80px;
 }
+
+
+@media only screen and (max-width: 480px) {
+	.name div{
+	width: 10%;
+	height: 70px;
+	display: inline-block;
+}
