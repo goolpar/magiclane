@@ -6,6 +6,12 @@ body{
 	margin: auto auto;
 }
 
+.cart-btn{position:relative;float:right;padding:9px 50px 9px;font-size:0.9em;margin-top:17px}
+.cart-btn a{display:inline-block;width:40px;height:40px;margin:10px;}
+.cart-btn .line_icon{background:url("https://i.imgur.com/buXk6XB.png") no-repeat left ;background-size: 400%;}
+.instagram_icon{background:url("https://i.imgur.com/buXk6XB.png") no-repeat center ;background-size: 400%;}
+.cart-btn .fb_icon{background:url("https://i.imgur.com/buXk6XB.png") no-repeat right;background-size: 400% ;}
+
 @font-face {
   font-family: 'Noto Sans TC';
   font-style: normal;
@@ -213,6 +219,8 @@ body{
 
 
 @media only screen and (max-width: 768px) {
+	
+	.cart-btn{position:relative;padding:9px 50px 9px;font-size:0.9em;margin-top:17px}
 	
 	.name div{
 	width: 10%;
