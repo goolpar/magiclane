@@ -237,6 +237,18 @@ body{
 
 @media only screen and (max-width: 768px) {
 	
+	
+	.butt{
+	position: relative;
+	left: 20px;
+	top:20px;
+    color: black;
+	padding: 15px 25px;
+	font-size: 16px;
+    text-align: center;
+	border: 2px black solid;
+	text-decoration: none;
+	
 	.one{padding-top:50px;  margin:50px auto;height:200px;width:600px;overflow:hidden;position:relative; 
 	.name div{
 	width: 10%;
