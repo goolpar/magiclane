@@ -249,6 +249,8 @@ body{
 	border: 2px black solid;
 		text-decoration: none;}
 	
+	.cart-btn{position:relative;float:right;padding:5px 20px 5px;font-size:0.9em;margin-top:17px}
+	
 	.one{padding-top:50px;margin:50px auto;height:200px;width:100%;overflow:hidden;position:relative;} 
 	.name div{
 	width: 10%;
