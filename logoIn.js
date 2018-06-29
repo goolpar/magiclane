@@ -249,7 +249,7 @@ body{
 	border: 2px black solid;
 	text-decoration: none;
 	
-	.one{padding-top:50px;  margin:50px auto;height:200px;width:600px;overflow:hidden;position:relative; 
+	.one{padding-top:50px;margin:50px auto;height:200px;width:600px;overflow:hidden;position:relative;} 
 	.name div{
 	width: 10%;
 	height: 70px;
