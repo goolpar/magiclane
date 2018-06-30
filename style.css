@@ -273,3 +273,9 @@ body{
 		}
 	
 }
+
+@media only screen and (max-width: 360px) { 
+	
+	.bg{height: 2000px}
+
+}
