@@ -276,7 +276,7 @@ body{
 }
 
 @media only screen and (max-width: 360px) { 
-	
+	.bag p{font-size: 45px; font-family: "Noto Sans TC",NotoSansTC-Regular,sans-serif;margin-bottom: 20px;}
 	.bg{height: 2000px}
 
 }
